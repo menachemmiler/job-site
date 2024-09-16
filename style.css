@@ -1,0 +1,81 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding: 10px;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+
+
+.card img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.the_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+.overflow-scroll {
+    /* width: 254.47px; */
+    height: 200px;
+    /* height: 71.98px; */
+}
+
+
+.t_nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid rgb(119, 150, 181) 0.5px;
+    background-color: rgb(237, 237, 237);
+}
+
+
+
+.save_btn{
+    background-color: rgb(221, 0, 255);
+    color: white;
+    border-radius: 10%;
+    border: 0px;
+    padding: 2%;
+}
+
+#home_text{
+    width: 50%;
+}
+
+/* #search{
+    background-color: white;
+
+} */
